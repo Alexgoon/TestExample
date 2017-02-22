@@ -14,15 +14,15 @@ Imports System.Windows.Navigation
 Imports System.Windows.Shapes
 
 Namespace Example
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
-    Partial Public Class MainWindow
-        Inherits Window
+	''' <summary>
+	''' Interaction logic for MainWindow.xaml
+	''' </summary>
+	Partial Public Class MainWindow
+		Inherits Window
 
-        Public Sub New()
-            InitializeComponent()
-            Dim t As Integer=123
-        End Sub
-    End Class
+		Public Sub New()
+			InitializeComponent()
+			Dim t As Integer=1234
+		End Sub
+	End Class
 End Namespace
