@@ -29,4 +29,14 @@ namespace Example {
             };
         }
     }
+	
+    public interface ITest {
+        void SomeMethod();
+    }
+
+    public class TestClass : ITest {
+        public void SomeMethod() {
+            
+        }
+    }
 }
