@@ -20,7 +20,7 @@ namespace Example {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-			int t=6;
+			int t=7;
 			t++;
         }
     }
