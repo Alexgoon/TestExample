@@ -22,6 +22,11 @@ namespace Example {
             InitializeComponent();
 			int t=11;
 			t++;
+	    System.Windows.Controls.Button btn = new Button();
+            btn.Click += (sn, args) => {
+                int t2 = 123;
+                t2++;
+            };
         }
     }
 }
