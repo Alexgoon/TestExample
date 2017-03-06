@@ -22,8 +22,26 @@ Namespace Example
 
         Public Sub New()
             InitializeComponent()
+        Dim testObject = DirectCast(New With, Object) {Key .pageIndex = 1, Key .isSuggestedSearch = 123}
             Dim t As Integer=11
             t += 1
+        Dim btn As System.Windows.Controls.Button = New Button()
+            AddHandler btn.Click, Sub(sn, args)
+                Dim t2 As Integer = 123
+                t2 += 1
+            End Sub
+        End Sub
+    End Class
+
+    Public Interface ITest
+        Sub SomeMethod()
+    End Interface
+
+    Public Class TestClass
+        Implements ITest
+
+        Public Sub SomeMethod() Implements ITest.SomeMethod
+
         End Sub
     End Class
 End Namespace
