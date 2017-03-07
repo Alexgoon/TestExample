@@ -22,7 +22,7 @@ Namespace Example
 
 		Public Sub New()
 			InitializeComponent()
-			Dim t As Integer=13
+			Dim t As Integer=14
 			t += 1
 		Dim btn As System.Windows.Controls.Button = New Button()
 			AddHandler btn.Click, Sub(sn, args)
