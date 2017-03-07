@@ -1,4 +1,4 @@
 # TestExample
-<sub style="font-size: 12px">[Human VB]</sub>
+<sub style="font-size: 6px">[Human VB]</sub>
 
 Some description
