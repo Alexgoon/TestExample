@@ -1,4 +1,4 @@
 # TestExample
 Some description
 
-[Human VB]
+**<sub>[Human VB]</sub>**
