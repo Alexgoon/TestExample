@@ -22,10 +22,11 @@ Namespace Example
 
 		Public Sub New()
 			InitializeComponent()
-
+			Dim t As Integer=123456
+			t += 1
 		Dim btn As System.Windows.Controls.Button = New Button()
 			AddHandler btn.Click, Sub(sn, args)
-				Dim t2 As Integer = 123
+				Dim t2 As Integer = 1234
 				t2 += 1
 			End Sub
 		End Sub
