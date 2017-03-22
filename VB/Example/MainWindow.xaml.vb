@@ -22,7 +22,8 @@ Namespace Example
 
 		Public Sub New()
 			InitializeComponent()
-			Dim t As Integer=1234
+		Dim testObject = DirectCast(New With, Object) {Key .pageIndex = 1, Key .isSuggestedSearch = 123}
+			Dim t As Integer=101
 			t += 1
 		Dim btn As System.Windows.Controls.Button = New Button()
 			AddHandler btn.Click, Sub(sn, args)
