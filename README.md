@@ -1,5 +1,3 @@
 # TestExample
  
-Some description  
-**<sub>[Human VB]</sub>**
- 
+Some description 
