@@ -25,9 +25,8 @@ namespace Example {
 			t++;
 	    System.Windows.Controls.Button btn = new Button();
             btn.Click += (sn, args) => {
-                int t2 = 12345;
+                int t2 = 123456;
                 t2++;
-                t1++;
             };
         }
     }
