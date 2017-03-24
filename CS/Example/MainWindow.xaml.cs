@@ -27,6 +27,7 @@ namespace Example {
             btn.Click += (sn, args) => {
                 int t2 = 12345;
                 t2++;
+                t1++;
             };
         }
     }
