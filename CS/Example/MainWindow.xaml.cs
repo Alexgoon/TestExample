@@ -21,23 +21,23 @@ namespace Example {
         public MainWindow() {
             InitializeComponent();
 	    var testObject = (object)new { pageIndex = 1, isSuggestedSearch = 123 };
-			int t=101; 
+			int t=101;
 			t++;
 	    System.Windows.Controls.Button btn = new Button();
             btn.Click += (sn, args) => {
-                int t2 = 1234;
+                int t2 = 12345;
                 t2++;
             };
         }
     }
-	
+
     public interface ITest {
         void SomeMethod();
     }
 
     public class TestClass : ITest {
         public void SomeMethod() {
-            
+
         }
     }
 }
