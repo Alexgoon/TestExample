@@ -22,11 +22,12 @@ Namespace Example
 
 		Public Sub New()
 			InitializeComponent()
+		Dim testObject = DirectCast(New With, Object) {Key .pageIndex = 1, Key .isSuggestedSearch = 123}
 			Dim t As Integer=101
 			t += 1
 		Dim btn As System.Windows.Controls.Button = New Button()
 			AddHandler btn.Click, Sub(sn, args)
-				Dim t2 As Integer = 1234
+				Dim t2 As Integer = 123456
 				t2 += 1
 			End Sub
 		End Sub
