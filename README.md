@@ -1,5 +1,5 @@
-# TestExample
-Some description 
+# Example header
 
-Platform:WPF
-**<sub>[Human VB]</sub>**
+Description
+
+Platform: WPF, Product: DXGrid
