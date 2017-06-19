@@ -20,7 +20,7 @@ namespace Example {
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-	    int t=102;
+	    int t=103;
 	    t++;
             var testObject = (object)new { pageIndex = 1, isSuggestedSearch = 123 };
 	    System.Windows.Controls.Button btn = new Button();
